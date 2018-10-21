@@ -1,2 +1,2 @@
 # DSAA
-This repo for DSAA project
+This repo is for DSAA project
