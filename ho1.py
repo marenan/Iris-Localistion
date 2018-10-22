@@ -26,9 +26,12 @@ circles = cv2.HoughCircles(edges,cv2.HOUGH_GRADIENT,1,20,
 circles = np.uint16(np.around(circles))
 for i in circles[0,:]:
     # draw the outer circle
-    cv2.circle(cimg,(i[0],i[1]),i[2],(0,127,0),2)
+    cv2.circle(cimg,(i[0],i[1]),i[2],(255,255,255),2)
+    cv2.circle(img_1,(i[0],i[1]),i[2],(255,255,255),2)
     # draw the center of the circle
-    cv2.circle(cimg,(i[0],i[1]),2,(0,0,127),3)
+    cv2.circle(cimg,(i[0],i[1]),2,(255,255,255),3)
+    cv2.circle(img_1,(i[0],i[1]),2,(255,255,255),3)
+
 '''
 cv2.imshow('detected circles',cimg)
 cv2.waitKey(0)
