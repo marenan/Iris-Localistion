@@ -1,5 +1,7 @@
 # DSAA
 
+&nbsp;
+&nbsp;
 > ## Problem Statement
 Iris recognition, the ability to recognize and distinguish individuals by their Iris
 pattern, is the most reliable biometric in terms of recognition and identification
@@ -10,6 +12,8 @@ noise data such as images in which Iris is covered with eyelashes and substantia
 increase their error rates in these conditions. Hence, an attempt has been made
 to work on latter problem of Iris Localization. 
 
+&nbsp;
+&nbsp;
 > ## How To Use This Repo
 
 * Folder __info__ and __positive__ contains positive image dataset used for generating ground truth.
